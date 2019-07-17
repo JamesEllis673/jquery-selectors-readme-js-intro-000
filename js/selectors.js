@@ -3,9 +3,7 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  var pictures = $('img')
-  lastImage = pictures[5]
-  return lastImage
+  return $('img')
 }
 
 function ninjaBabySelector() {
